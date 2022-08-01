@@ -1,11 +1,17 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="My pieces of a html course">
+    <meta name="keywords" content="html, course, practice, code">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" type="image/ico" sizes="64x64">
     <tite>Practice page</tite>
 </head>
 <body>
     <p id="example">Welcome to my html walkthrough</p>
+    <p>This one and above are both paragraphs in 2 lines on code, </p>
+    <span>but here is the 3rd html element, and this one is inline, using for css edit.</span>
 
     <ul>
         <li>First item</li>
@@ -15,7 +21,7 @@
 
     <p class="example" title="Tooltip">Will something show up? Hoover me to check it out</p>
 
-    <p><strong>These</strong> <em>both</em> are logical, and <b>that</b> <i>two</i> is visualising tags</p>
+    <p><strong>These both</strong> <em>tags</em> are logical, and <b>that</b> <i>two</i> are visualising tags</p>
 
     <h1>Im lvl1 header</h1>
     <p>...</p>
@@ -79,6 +85,88 @@
             };
         </pre>
     </code>
-    
+
+    <img src="https://cdn11.bigcommerce.com/s-ad7fe/images/stencil/1280x1280/products/311/146/1000px-%C3%8Ele-de-France_flag.svg__62345.1308066609.png?c=2" alt="14th-16th century Flag of France">
+
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3">
+    </audio>
+
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/movie.webm" type="video/webm">
+        <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
+    </video>
+
+    <form action="/people">
+        <div>
+          <label for="username">Введите свое имя</lable>
+          <input type="text" placeholder="Данте Спардович" id="username">
+        </div>
+        <div>
+          <label>Укажите свой почтовый ящик</label>
+            <input type="email" placeholder="dante@sparda.underworld">
+        <br>
+        <button>Confirm</button>
+      </form>
+
+      <form action="/people">
+        <label>
+          <input type="checkbox" name="platforms" value="PSex">
+          I want PSex
+        </label>
+
+        <input id="PC2" type="checkbox" name="platforms" value="PC2">
+        <label for="PC2">I want PC2</label>
+        <br>
+        <button>Confirm</button>
+      </form> 
+
+      <form action="/people">
+        <label>
+          <input type="radio" name="delivery" value="courier">
+          Выбрать доставку курьером
+        </label>
+        
+        <input id="mailpost" type="radio" name="delivery" value="mailpost">
+        <label for="mailpost">Выбрать доставку почтой</label>
+        <br>
+        <button>Confirm</button>
+      </form>
+
+      <form action="/people">
+        <textarea rows="4" cols="30">Поле с 4 строками и 30 столбцами</textarea>
+        <br>
+        <button>Confirm</button>
+      </form>
+
+      <form action="/people">
+        <select multiple>
+          <option disabled>Выберите своего/их персонажа</option>
+          <option>Вертолет</option>
+          <option>Олень</option>
+          <option>Покемон</option>
+        </select>
+        <br>
+        <button>Confirm</button>
+      </form>
+
+      <form action="/people">
+        <label>Введите свое имя</label>
+          <input type="text" placeholder="Введите ваше имя">
+        <br>
+        <label for="tel">Введите номер своего телефона</label>
+        <input id="tel" type="text" placeholder="79123456789">
+        <br>
+        <select multiple>
+          <option disabled>Укажите свои навыки</option>
+          <option>Умею включать кудахтер</option>
+          <option>Могу утсановить виндафс</option>
+          <option>Знаю как скачать таррэнт</option>
+        </select>
+        <br>
+        <button>Подтвердить</button>
+      </form>
 </body>
 </html>
